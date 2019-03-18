@@ -1,0 +1,117 @@
+*{
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: #fff;
+}
+h2{
+    color: #fff;
+}
+body{
+    height: 1920px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-image: url(Test/main_bg.png);
+}
+.container{
+    display: flex;
+    background-image: url(Test/bg_form.png);
+    width: 990px;
+    height: 1590px;
+    margin: 180px 465px 150px 465px;
+    display: block;
+    position: absolute;
+}
+.logo{
+    padding: 0;
+    height: 407px;
+    width: 422px;
+    margin: 75px 288px 75px 280px;
+    display: block;    
+    background-image: url(Test/logo.png)
+}
+
+.container .text1{
+    font-size: 1.1em;
+    margin: 0 132px 30px 125px;
+}
+.main_reg_fields{
+    margin: 0 117px 0 115px;
+    padding: 0;
+}
+
+input{
+    display: inline-block;
+    margin: 0 30px 30px 10px; 
+    width: 330px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color:#adadad;
+}
+
+.voyages_quebec{
+    display: flex;
+    font-size: 1.2em;
+    margin: 0 30px 30px 10px;
+}
+.destination{
+    display:flex;
+    font-size: 1.2em;
+    margin: 0 30px 30px 10px;
+}
+.voyages_quebec select{
+    width: 210px;
+    height: 35px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color:#adadad;
+    margin: 0 0 0 85px;
+}
+.destination select{
+    width: 300px;
+    height: 35px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color:#adadad;
+    margin: 0 0 0 85px;
+}
+option{
+    color: #adadad;
+}
+
+.joindre{
+    display: flex;
+    margin: 80px 0 0 0;
+}
+.joindre .join_text{
+    margin: 0 0 0 10px;
+}
+.joindre button{
+    margin: 3px 0 0 10px;
+    width: 210px;
+    height: 35px;
+    background-color: #fff;
+    color: #adadad;
+    border: none;
+}
+
+
+.check_box{
+    margin: 45px 0 0 -80px;
+    display: block;
+}
+.accept{
+    display: flex;
+    margin: 45px 0 0 -62px;
+}
+.inspirez{
+    display: flex;
+    margin: 30px 0 0 17px;
+}
+
+.math{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0 0 0 ;
+}
